@@ -7,3 +7,9 @@ Um professor da UVV, muito fã de RPG, decidiu construir um aplicativo para troc
 - Nome do item
 - Descrição do item (poder de ataque, defesa e qualquer outro atributo)
 - Botão para propor a troca
+--------------------------
+Com ess descrição, começamos a criar o prototipo do projeto,
+
+Itens onde est o projeto
+SCR/RPG/ index.js e styles.js
+App.js
