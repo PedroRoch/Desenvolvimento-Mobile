@@ -41,67 +41,83 @@ export default function Filmes({ filmes, handleFilmeSelect }) {
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-  },
-  filme: {
-    flexDirection: 'row',
-    backgroundColor: '##5b65a3',
-    borderRadius: 10,
-    padding: 10,
-    marginBottom: 20,
-    alignItems: 'center',
-  },
-  poster: {
-    width: 100,
-    height: 150,
-    marginRight: 10,
-    borderRadius: 5,
-  },
-  infoContainer: {
-    flex: 1,
-  },
-  titulo: {
-    fontSize: 20,
-    fontWeight: 'bold',
-    color: '#fff',
-    marginBottom: 10,
-  },
-  subtitulo: {
-    fontSize: 15,
-    fontWeight: 'bold',
-    color: '#fff',
-    marginBottom: 10,
-  },
-  sinopse: {
-    fontSize: 14,
-    color: '#fff',
-    marginBottom: 10,
-  },
-  linha: {
-    flexDirection: 'row',
-    alignItems: 'center',
-  },
-  label: {
-    fontSize: 14,
-    color: '#fff',
-    marginRight: 5,
-  },
-  valor: {
-    fontSize: 14,
-    color: '#fff',
-    fontWeight: 'bold',
-  },
-  botao: {
-    backgroundColor: '#008CBA',
-    padding: 5,
-    borderRadius: 5,
-    marginTop: 16,
-  },
-  textoBotao: {
-    color: '#fff',
-    fontSize: 16,
-    fontWeight: 'bold',
-    textAlign: 'center',
-  },
-});
+    container: {
+        flex: 1,
+        backgroundColor: '#f8f8f8',
+        padding: 20,
+      },
+      filme: {
+        flexDirection: 'row',
+        backgroundColor: '#ffffff',
+        borderRadius: 10,
+        padding: 10,
+        marginBottom: 20,
+        alignItems: 'center',
+        elevation: 2,
+      },
+      poster: {
+        width: 100,
+        height: 150,
+        marginRight: 10,
+        borderRadius: 10,
+      },
+      infoContainer: {
+        flex: 1,
+        marginLeft: 10,
+      },
+      titulo: {
+        backgroundColor: '#6c63ff',
+        borderRadius: 5,
+        fontSize: 20,
+        fontWeight: 'bold',
+        color: '#ffffff',
+        marginBottom: 10,
+        paddingVertical: 5,
+        paddingHorizontal: 10,
+      },
+      subtitulo: {
+        backgroundColor: '#a7a3ff',
+        borderRadius: 5,
+        fontSize: 15,
+        fontWeight: 'bold',
+        color: '#ffffff',
+        marginBottom: 10,
+        paddingVertical: 5,
+        paddingHorizontal: 10,
+      },
+      sinopse: {
+        backgroundColor: '#d1ccff',
+        borderRadius: 5,
+        fontSize: 14,
+        color: '#000000',
+        marginBottom: 10,
+        padding: 10,
+      },
+      linha: {
+        flexDirection: 'row',
+        alignItems: 'center',
+      },
+      label: {
+        fontSize: 14,
+        color: '#6c63ff',
+        marginRight: 5,
+        fontWeight: 'bold',
+      },
+      valor: {
+        fontSize: 14,
+        color: '#000000',
+        fontWeight: 'bold',
+      },
+      botao: {
+        backgroundColor: '#6c63ff',
+        padding: 10,
+        borderRadius: 5,
+        marginTop: 16,
+      },
+      textoBotao: {
+        color: '#ffffff',
+        fontSize: 16,
+        fontWeight: 'bold',
+        textAlign: 'center',
+      },
+    });
