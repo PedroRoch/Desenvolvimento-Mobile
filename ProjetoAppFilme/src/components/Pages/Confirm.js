@@ -27,53 +27,61 @@ const Confirm = ({ filme, handleConfirm }) => {
 
 const styles = StyleSheet.create({
     container: {
-      flex: 1,
-      justifyContent: 'center',
-      alignItems: 'center',
-      backgroundColor: '#5b65a3',
-      borderRadius: 10,
-      padding: 10,
-      marginBottom: 20,
-    },
-    poster: {
-      width: 130,
-      height: 160,
-      marginBottom: 10,
-      borderRadius: 5,
-    },
-    infoContainer: {
-      flex: 1,
-      alignItems: 'center',
-    },
-    titulo: {
-      fontSize: 20,
-      fontWeight: 'bold',
-      color: '#fff',
-      marginBottom: 10,
-    },
-    subtitulo: {
-      fontSize: 15,
-      fontWeight: 'bold',
-      color: '#fff',
-      marginBottom: 10,
-    },
-    sinopse: {
-      fontSize: 14,
-      color: '#fff',
-      marginBottom: 10,
-    },
-    botao: {
-      backgroundColor: '#008CBA',
-      padding: 5,
-      borderRadius: 5,
-      marginTop: 16,
-    },
-    textoBotao: {
-      color: '#fff',
-      fontSize: 16,
-      fontWeight: 'bold',
-      textAlign: 'center',
-    },
-  });
+        flex: 1,
+        justifyContent: 'center',
+        alignItems: 'center',
+        backgroundColor: '#f8f8f8',
+        borderRadius: 10,
+        padding: 20,
+        marginBottom: 20,
+        shadowColor: '#000',
+        shadowOffset: {
+          width: 0,
+          height: 2,
+        },
+        shadowOpacity: 0.25,
+        shadowRadius: 3.84,
+        elevation: 5,
+      },
+      poster: {
+        width: 130,
+        height: 160,
+        marginBottom: 10,
+        borderRadius: 5,
+      },
+      infoContainer: {
+        flex: 1,
+        alignItems: 'center',
+      },
+      titulo: {
+        fontSize: 20,
+        fontWeight: 'bold',
+        color: '#000000',
+        marginBottom: 10,
+      },
+      subtitulo: {
+        fontSize: 15,
+        fontWeight: 'bold',
+        color: '#000000',
+        marginBottom: 10,
+      },
+      sinopse: {
+        fontSize: 14,
+        color: '#000000',
+        marginBottom: 10,
+      },
+      botao: {
+        backgroundColor: '#6c63ff',
+        padding: 10,
+        borderRadius: 5,
+        marginTop: 16,
+      },
+      textoBotao: {
+        color: '#ffffff',
+        fontSize: 16,
+        fontWeight: 'bold',
+        textAlign: 'center',
+      },
+    });
 
 export default Confirm;
